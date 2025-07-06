@@ -2,8 +2,8 @@ export const HEADER = ['HOME', 'CATEGORIES', 'ABOUT', 'CONTACT']
 
 export const TRAVEL = ['Nature', 'Photography', 'Relaxation', 'Vacation', 'Travel', 'Adventure']
 
-import image from "../assets/IMAGE (1).SVG"
-import img from "../assets/IMAGE (2).SVG"
+import image from "../assets/rasim1.svg"
+import img from "../assets/rasim2.svg"
 
 export const FEATURED = [
     {
