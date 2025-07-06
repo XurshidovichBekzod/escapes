@@ -1,0 +1,31 @@
+.heroText{
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+}
+.heroText h1{
+    font-size: 63px;
+    line-height: 51px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.heroText p{
+    font-size: 17px;
+    color: #FFFFFFA1;
+    margin-bottom: 30px;
+}
+.heroText button{
+    padding: 12px 30px;
+    background-color: #DD783F;
+    color: white;
+    border: 2px solid #DD783F;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+.heroText button:hover{
+    background-color: inherit;
+    color: #f18749;
+}

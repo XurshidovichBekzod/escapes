@@ -1,0 +1,45 @@
+a {
+    color: #FFFFFF;
+    font-weight: 550;
+    font-size: 16px;
+    text-decoration: inherit;
+    font-weight: 400;
+}
+
+a:hover {
+    color: rgb(215, 215, 215);
+    transition: all .3s;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input,
+button {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.navCollection{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

@@ -1,0 +1,75 @@
+.h2{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+}
+hr{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}   
+
+@media (min-width: 768px) {
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.featured-card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 280px;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  position: relative;
+}
+
+.card-title {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-text {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.author-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}

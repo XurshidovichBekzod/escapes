@@ -1,0 +1,42 @@
+.containers{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mostCard{
+    width: 296px;
+    height: 261px;
+    background-color: white;
+}
+.flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 50px;
+    padding: 20px;
+}
+.mostCard h3{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+.mostCard p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 15px;
+    color: #7A7A7A;
+}
+.mostCard hr{
+    width: 100%;
+    margin-top: 15px;
+}
+.mostFelex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -23px;
+    padding: 0px 15px;
+}
+.dFelx{
+    display: flex;
+    align-items: center;
+}
